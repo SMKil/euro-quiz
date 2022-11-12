@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+    <title>Geografi Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <section class="m-0" class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <h1 class="title is-2">Geografi Quiz</h1>
+                        <div class="card-image">
+                            <figure class="image is-3by1">
+                                <img src="img/marjan-blan-marjanblan-6bXvYyAYVrE-unsplash.jpg"> 
+                            </figure>
+                        </div>
+                        <h2 class="title is-3" class="mt-2" id="question">Hva er hovedstaden i X?</h2>
+                        <input class="input is-dark" type="text" id="answer" placeholder="Skriv ditt svar her">
+                        <div class="mt-2">
+                            <button class="button is-primary" id="ok-btn" type="submit"
+                                onclick="checkAnswer()">OK</button>
+                            <button class="button is-info" id="newq-btn" type="button" onclick="newQuestion()">Nytt
+                                spørsmål</button>
+                                <div class="title is-4">
+                                    <p id="score">0</p>
+                                </div>
+                        </div>
+                        
+                        <div class="card-content">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+    <!-- <script id="data" type="application/json" src="data.json"></script> -->
+
+</body>
+
+</html>
