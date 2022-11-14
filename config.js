@@ -56,7 +56,7 @@ const COUNTRYCAPITALS = [
         "capital": "Zagreb"
     },
     {
-        "country": "Portogal",
+        "country": "Portugal",
         "capital": "Lisboa"
     },
     {
